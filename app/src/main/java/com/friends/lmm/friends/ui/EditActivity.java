@@ -108,6 +108,7 @@ public class EditActivity extends AppCompatActivity {
         post.setUserName(username);
         post.setPraise(0);
         post.setComment(0);
+        post.setAnchorId(BmobUser.getCurrentUser().getObjectId());
         post.setTime(getTime());
         post.setUserIcon(getIntent().getStringExtra("headUrl"));
         if (size == 0) {

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">朋友圈</string>
+    <string name="title_activity_apps">AppsActivity</string>
 
 </resources>

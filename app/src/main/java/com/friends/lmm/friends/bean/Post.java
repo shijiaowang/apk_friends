@@ -13,6 +13,7 @@ public class Post extends BmobObject {
     private Integer praise;//点赞
     private Integer comment;//评论
     private String time;//发表时间
+    private String anchorId;//作者ID
 
     public String getTime() {
         return time;
@@ -72,6 +73,9 @@ public class Post extends BmobObject {
 
     public Integer getComment() {return comment;}
 
-    public void setComment(Integer comment) {this.comment = comment;
-    }
+    public void setComment(Integer comment) {this.comment = comment;}
+
+    public String getAnchorId() {return anchorId;}
+
+    public void setAnchorId(String anchorId) {this.anchorId = anchorId;}
 }

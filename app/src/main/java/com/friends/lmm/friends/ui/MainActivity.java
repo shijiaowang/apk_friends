@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.back).setOnClickListener(this);
         findViewById(R.id.quanzi).setOnClickListener(this);
         findViewById(R.id.apps).setOnClickListener(this);
-        findViewById(R.id.games).setOnClickListener(this);
+        findViewById(R.id.other).setOnClickListener(this);
         findViewById(R.id.lives).setOnClickListener(this);
         findViewById(R.id.mine).setOnClickListener(this);
         lv = (MyListview) findViewById(R.id.lv);
@@ -169,19 +169,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 addHead();
                 break;
             case R.id.quanzi://圈子
-
+                //intiData(0);
                 break;
             case R.id.apps://应用
-
+                startActivity(new Intent(MainActivity.this, AppsActivity.class));
                 break;
-            case R.id.games://游戏
+            case R.id.other://其他
 
                 break;
             case R.id.lives://直播
 
                 break;
             case R.id.mine://我的
-                
+
                 break;
         }
     }

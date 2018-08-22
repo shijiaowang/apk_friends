@@ -80,17 +80,6 @@
                     </RelativeLayout>
 
                     <RelativeLayout
-                        android:id="@+id/games"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1">
-
-                        <TextView
-                            style="@style/TextView"
-                            android:text="小游戏" />
-                    </RelativeLayout>
-
-                    <RelativeLayout
                         android:id="@+id/lives"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -99,6 +88,17 @@
                         <TextView
                             style="@style/TextView"
                             android:text="直播" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/other"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            style="@style/TextView"
+                            android:text="其他" />
                     </RelativeLayout>
 
                     <RelativeLayout

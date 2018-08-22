@@ -63,7 +63,7 @@
         android:layout_width="match_parent"
         android:id="@+id/post_content"
         android:textSize="18sp"
-        android:autoLink="all"
+
         android:textColor="@color/text"
         android:layout_marginLeft="17dp"
         android:layout_height="wrap_content" />
