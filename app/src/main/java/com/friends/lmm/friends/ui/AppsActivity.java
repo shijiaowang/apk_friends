@@ -21,6 +21,8 @@ public class AppsActivity extends AppCompatActivity {
     private List<Map<String, Object>> dataList;
     private SimpleAdapter adapter;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
