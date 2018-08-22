@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:background="@mipmap/blur"
+android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:hint="用户名"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="184dp"
+        android:background="@drawable/btn_ra"
+        android:gravity="center_vertical" />
+    <EditText
+        android:id="@+id/et_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:hint="密码"
+        android:layout_below="@+id/et_username"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_ra"
+       />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_below="@+id/et_pwd"
+        android:textColor="@color/white"
+        android:text="登录"
+        android:id="@+id/btn_login"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_height="50dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_below="@+id/et_pwd"
+        android:textColor="@color/white"
+        android:text="注册"
+        android:id="@+id/btn_reg"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_height="50dp" />
+
+
+</LinearLayout>
+
+
+
+
+
+</LinearLayout>
